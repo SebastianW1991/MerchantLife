@@ -167,6 +167,10 @@ while beginning:
                                   " Do you wish to do anything else? You can:\n "
                                   "[a] buy food for you for 15 talars.\n [b] buy food for your horses for 2 guldens.\n "
                                   "[c] leave tavern.")
+                if tavernXdA == "a":
+                    totalMoney = totalMoney - foodPriceX
+                elif tavernXdA == "b":
+                    totalMoney = totalMoney - horseFoodX
             elif tavernXd == "b":
                 totalMoney = totalMoney - foodPriceX
             elif tavernXd == "c":
