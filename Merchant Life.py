@@ -174,7 +174,11 @@ while beginning:
                     beginning = "c"
                 else:
                     tavernX = "b"
+        else:
+            tavernXe = input("You left the tavern. You can :\n[a] go to market. \n[b] leave the city.\n"
+                             "[c] return to tavern")
     elif beginning == "c":
-        outskirtsX = input("You are at outskirts of the city")
+        outskirtsX = open('outskirtsX.txt').read()
+        outskirtsX = input(outskirtsX)
     else:
         beginning = input("Choose your option by choosing letters : a or b or c")
