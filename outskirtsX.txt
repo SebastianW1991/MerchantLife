@@ -1,0 +1,5 @@
+Now you quitted city and you are now on its outskirts. Now you can:
+[a]Go to equerry.
+[b]Go to mercenaries encampment.
+[c]Move out of city borders
+[d]Return to the city
