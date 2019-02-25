@@ -1,0 +1,4 @@
+Do you wish to do anything else? You can:
+[a] rent a room for 1 gulden.
+[b] buy food for your horses for 2 guldens.
+[c] leave tavern.
