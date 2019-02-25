@@ -1,0 +1,3 @@
+Having none activities here, you decided to leave tavern. Now you can :
+[a] go to market. 
+[b] leave the city.
