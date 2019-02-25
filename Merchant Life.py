@@ -30,23 +30,22 @@ while beginning:
         tavernX = input(tavernX)
         if tavernX == "a":
             totalMoney = totalMoney - beerPriceX
+            tavernXa = open('tavernXa.txt').read()
             tavernXa = input("You feel happier, yet your pocket is lighter. You have " + str(totalMoney) + " total"
-                             " Do you wish to do anything else? You can:\n [a] buy food for you for 15 talars. \n "
-                             "[b] rent a room for 1 gulden. \n [c] buy food for your horses for 2 guldens. \n "
-                             "[d] leave tavern.")
+                             + tavernXa + "")
             if tavernXa == "a":
                 totalMoney = totalMoney - foodPriceX
+                tavernXaA = open('tavernXaA.txt').read()
                 tavernXaA = input(" You feel healthier, but your money bag contains only " + str(totalMoney) + " now. "
-                                  "You can either:\n [a]rent a room for 1 gulden. \n "
-                                  "[b] buy food for your horses for 2 guldens."
-                                  "\n [c] leave tavern. ")
+                                  + tavernXaA + "")
                 if tavernXaA == "a":
                     totalMoney = totalMoney - rentPriceX
-                    tavernXaAa = input("Yaawn, that was good night Now you posses only a mere " + str(totalMoney) + ""
-                                       " guldens. You can: \n [a] feed your horses for 2 guldens.\n [b] leave the "
-                                       "tavern.")
+                    tavernXaAa = open('tavernXaAa.txt').read()
+                    tavernXaAa = input("Yaawn, that was good night Now you posses only a mere " + str(totalMoney) +
+                                       " guldens." + tavernXaAa + "")
                     if tavernXaAa == "a":
                         totalMoney = totalMoney - horseFoodX
+
                         tavernXaAaA = input("Now you have " + str(totalMoney) + " guldens and your horses "
                                             "are well feed."
                                             "Having none activities here, you decided to leave tavern. Now you can :\n"
