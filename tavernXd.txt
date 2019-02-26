@@ -1,0 +1,5 @@
+You still can: 
+[a] buy a beer for 5 talars.
+[b] buy food for you for 15 talars.
+[c] rent a room for 1 gulden.
+[d] leave tavern.
