@@ -1,0 +1,5 @@
+You can: 
+[a] buy a beer for 5 talars.
+[b] buy food for you for 15 talars.
+[c] buy food for your horses for 2 guldens.
+[d] leave tavern.
