@@ -1,5 +1,5 @@
 Do you wish to do anything else? You can:
-[a] buy food for you for 15 talars.
-[b] buy a beer for 5 talars.
+[a] buy a beer for 5 talars.
+[b] rent room for one.
 [c] buy food for your horses for 2 guldens.
 [d] leave tavern.
