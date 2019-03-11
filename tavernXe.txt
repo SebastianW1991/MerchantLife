@@ -1,0 +1,4 @@
+You can: 
+[a] go to market.
+[b] leave city.
+[c] return to tavern.
