@@ -30,29 +30,39 @@ while beginning:
         tavernX = open('tavernX.txt').read()
         tavernX = input(tavernX)
         if tavernX == "a":
+            # tavern beer
             totalMoney = totalMoney - beerPriceX
             tavernXa = open('tavernXa.txt').read()
             tavernXa = input("You feel happier, yet your pocket is lighter. You have " + str(totalMoney) + " total"
                              + tavernXa + "")
             if tavernXa == "a":
-                totalMoney = totalMoney - foodPriceX
+                totalMoney = totalMoney - foodPriceX  # tavern beer and food
                 tavernXaA = open('tavernXaA.txt').read()
                 tavernXaA = input(" You feel healthier, but your money bag contains only " + str(totalMoney) + " now. "
                                   + tavernXaA + "")
                 if tavernXaA == "a":
-                    totalMoney = totalMoney - rentPriceX
+                    totalMoney = totalMoney - rentPriceX  # tavern beer and food and rent
                     tavernXaAa = open('tavernXaAa.txt').read()
                     tavernXaAa = input("Yaawn, that was good night Now you posses only a mere " + str(totalMoney) +
                                        " guldens." + tavernXaAa + "")
                     if tavernXaAa == "a":
-                        totalMoney = totalMoney - horseFoodX
+                        totalMoney = totalMoney - horseFoodX  # tavern beer and food and rent and horse food
                         tavernXaAaA = open('tavernXaAaA.txt').read()
-                        tavernXaAaA = input("Now you have " + str(totalMoney) + " and your horses are well feed."
+                        tavernXaAaA = input("Now you have " + str(totalMoney) + " and your horses are well feed. "
                                             + tavernXaAaA + "")
                         if tavernXaAaA == "a":
                             beginning = "a"
-                        else:
+                        elif tavernXaAaA == "b":
                             beginning = "c"
+                        else:
+                            print('error, choose again')
+                            tavernXaAaA = open('tavernXaAaA.txt').read()
+                            tavernXaAaA = input("Now you have " + str(totalMoney) + " and your horses are well feed. "
+                                                + tavernXaAaA + "")
+                            if tavernXaAaA == "a":
+                                beginning = "a"
+                            elif tavernXaAaA == "b":
+                                beginning = "c"
                     elif tavernXaAa == "b":
                         tavernXaAaB = input("You left the tavern. You can :\n[a] go to market. \n[b] leave the city.")
                         if tavernXaAaB == "a":
