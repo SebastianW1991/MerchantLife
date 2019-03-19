@@ -25,7 +25,7 @@ while beginning:
             print("Welcome in Jacobsen & Sons")
         elif marketX == "f":
             print("You set up your stool and wait for buyer of your stuff")
-
+#tawerna
     elif beginning == "b":
         tavernX = open('tavernX.txt').read()
         tavernX = input(tavernX)
@@ -105,16 +105,14 @@ while beginning:
                                   + tavernXbA + "")
             elif tavernXb == "b":
                 totalMoney = totalMoney - rentPriceX
-                tavernXbB = input("Yaawn, that was good night Now you posses only a mere " + str(totalMoney) + ""
-                                  " Do you wish to do anything else? You can:\n"
-                                  "[a] buy a beer for 5 talars. \n [b] buy food for your horses for 2 guldens. \n "
-                                  "[c] leave tavern.")
+                tavernXbB = open('tavernXbB.txt').read()
+                tavernXbB = input("Yaawn, that was good night Now you posses only a mere " + str(totalMoney) + "" +
+                                  tavernXbB + " ")
             elif tavernXb == "c":
                 totalMoney = totalMoney - horseFoodX
-                tavernXbC = input("Your horses are well feed now and healthier. You have now " + str(totalMoney) + ""
-                                  " You still can:\n[a] buy a beer for 5 talars.  "
-                                  "\n[b] buy food for you for 15 talars. \n[c] rent a room for 1 gulden.  "
-                                  "\n[d] leave tavern.")
+                tavernXbC = open('tavernXbC.txt').read()
+                tavernXbC = input("Your horses are well feed now and healthier. You have now " + str(totalMoney) + "" +
+                                 tavernXbC + " ")
             else:
                 tavernXbD = input("You left the tavern. You can :\n[a] go to market. \n[b] leave the city.\n"
                                   "[c] return to tavern")
