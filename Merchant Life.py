@@ -112,7 +112,7 @@ while beginning:
                 totalMoney = totalMoney - horseFoodX
                 tavernXbC = open('tavernXbC.txt').read()
                 tavernXbC = input("Your horses are well feed now and healthier. You have now " + str(totalMoney) + "" +
-                                 tavernXbC + " ")
+                                  tavernXbC + " ")
             else:
                 tavernXbD = input("You left the tavern. You can :\n[a] go to market. \n[b] leave the city.\n"
                                   "[c] return to tavern")
