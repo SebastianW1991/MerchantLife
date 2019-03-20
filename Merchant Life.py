@@ -129,16 +129,14 @@ while beginning:
                              + tavernXc + " ")
             if tavernXc == "a":
                 totalMoney = totalMoney - beerPriceX
+                tavernXcA = open('tavernXcA.txt').read()
                 tavernXcA = input("You feel happier, yet your pocket is lighter. You have " + str(totalMoney) + " total"
-                                  " Do you wish to do anything else? You can:\n "
-                                  "[a] buy food for you for 15 talars.\n [b] buy food for your horses for 2 guldens.\n "
-                                  "[c] leave tavern.")
+                                  " Do you wish to do anything else?" + tavernXcA + " ")
             elif tavernXc == "b":
                 totalMoney = totalMoney - foodPriceX
+                tavernXcB = open('tavernXcB.txt').read()
                 tavernXcB = input("Your stomach is full and you are ready for upcoming events. "
-                                  "You have " + str(totalMoney) + " left. You still can:\n [a] buy a beer for 5 talars."
-                                  "\n [b] buy food for your horses for 2 guldens. \n "
-                                  "[c] leave tavern.")
+                                  "You have " + str(totalMoney) + " left." + tavernXcB + " ")
             elif tavernXc == "c":
                 totalMoney = totalMoney - horseFoodX
                 tavernXcC = input("Your horses are well feed now and healthier. You have now " + str(totalMoney) + ""
