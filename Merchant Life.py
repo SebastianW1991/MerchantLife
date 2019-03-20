@@ -124,10 +124,9 @@ while beginning:
                     tavernX = "b"
         elif tavernX == "c":
             totalMoney = totalMoney - rentPriceX
+            tavernXc = open('tavernXc.txt').read()
             tavernXc = input("You got some rest. But your pocket contains now " + str(totalMoney) + " coins "
-                             "You still can:\n [a] buy a beer for 5 talars. \n "
-                             "[b] buy food for you for 15 talars. \n [c] buy food for your horses for 2 guldens. \n "
-                             "[d] leave tavern.")
+                             + tavernXc + " ")
             if tavernXc == "a":
                 totalMoney = totalMoney - beerPriceX
                 tavernXcA = input("You feel happier, yet your pocket is lighter. You have " + str(totalMoney) + " total"
