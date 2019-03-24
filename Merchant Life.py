@@ -167,6 +167,8 @@ while beginning:
                     totalMoney = totalMoney - foodPriceX
                 elif tavernXdA == "b":
                     totalMoney = totalMoney - horseFoodX
+              # elif tavernXdA == "c":
+
             elif tavernXd == "b":
                 totalMoney = totalMoney - foodPriceX
             elif tavernXd == "c":
