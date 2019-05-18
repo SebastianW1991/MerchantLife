@@ -1,4 +1,4 @@
-"Welcome on the market of Xarthas, what you plan to do?
+Welcome to the market of Xarthas, what you plan to do?
 [a] Go to horse merchant.
 [b] Go to armor merchant.
 [c] Go to wine merchant.
