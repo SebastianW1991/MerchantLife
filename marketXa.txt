@@ -1,0 +1,5 @@
+You can:
+[a] Buy old mule for 5 guldens
+[b] Buy mule for 8 guldens
+[c] Buy strong mule for 10 guldens
+[d] Return to the market
