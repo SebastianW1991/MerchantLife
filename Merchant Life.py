@@ -3,6 +3,10 @@ beerPriceX = float(0.05)
 foodPriceX = float(0.15)
 rentPriceX = float(1.00)
 horseFoodX = float(2.00)
+oldMulePriceX = float(5.00)
+mulePrixeX = float(8.00)
+strongMulePriceX = float(10.00)
+
 print("Hello")
 name = input("Please, insert your name ")
 beginning = open('beginning.txt').read()
@@ -14,7 +18,8 @@ while beginning:
         marketX = open('marketX.txt').read()
         marketX = input(marketX)
         if marketX == "a":
-            marketXa = input("Greetings, are you looking for new steed?")
+            marketXa = open('marketXa.txt').read()
+            marketXa = input('Welcome in Augias stable, please, take a look on our steeds' + marketXa +'')
         elif marketX == "b":
             print("Greetings, I see that you are not warrior, please let me show you my best crafts")
         elif marketX == "c":
@@ -167,7 +172,7 @@ while beginning:
                     totalMoney = totalMoney - foodPriceX
                 elif tavernXdA == "b":
                     totalMoney = totalMoney - horseFoodX
-              # elif tavernXdA == "c":
+
 
             elif tavernXd == "b":
                 totalMoney = totalMoney - foodPriceX
