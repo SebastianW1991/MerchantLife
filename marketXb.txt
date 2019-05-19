@@ -1,0 +1,5 @@
+You can:
+[a]Buy helmet for 4 guldens
+[b]Buy breastplate for 12 guldens
+[c]Buy leg armor for 3.50 guldens
+[d]Return to market
