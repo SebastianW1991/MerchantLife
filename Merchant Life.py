@@ -19,9 +19,10 @@ while beginning:
         marketX = input(marketX)
         if marketX == "a":
             marketXa = open('marketXa.txt').read()
-            marketXa = input('Welcome in Augias stable, please, take a look on our steeds' + marketXa +'')
+            marketXa = input('Welcome in Augias stable, please, take a look on our steeds' + marketXa + '')
         elif marketX == "b":
-            print("Greetings, I see that you are not warrior, please let me show you my best crafts")
+            marketXb = open('marketXb.txt')
+            marketXb = input("Greetings, I see that you are not warrior, let me show you my crafts" + marketXb + '')
         elif marketX == "c":
             print("Here, take a look at the finest wines in Xarthas")
         elif marketX == "d":
@@ -88,7 +89,7 @@ while beginning:
                 totalMoney = totalMoney - horseFoodX
                 print("Now you have only " + str(totalMoney) + " guldens, but at least your horses are well feed")
             else:
-                tavernXa == "e"
+
                 tavernXaE = open('tavernXe').read()
                 input("You left tavern, What do you plan to do?" + tavernXe + " ")
                 if tavernXaE == "a":
