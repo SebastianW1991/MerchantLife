@@ -6,6 +6,9 @@ horseFoodX = float(2.00)
 oldMulePriceX = float(5.00)
 mulePrixeX = float(8.00)
 strongMulePriceX = float(10.00)
+helmetPriceX = float(4.00)
+breastPlatePriceX = float(12.00)
+legArmorPriceX = float(3.50)
 
 print("Hello")
 name = input("Please, insert your name ")
@@ -177,6 +180,9 @@ while beginning:
 
             elif tavernXd == "b":
                 totalMoney = totalMoney - foodPriceX
+                tavernXdB = input("You feel happier, yet your pocket is lighter. You have " + str(totalMoney) + " total"
+                                  " Do you wish to do anything else? You can:\n [a] buy a beer for 5 talars.\n "
+                                  "  [b] buy food for your horses for 2 guldens.\n [c] leave tavern.")
             elif tavernXd == "c":
                 totalMoney = totalMoney - rentPriceX
             elif tavernXd == "d":
